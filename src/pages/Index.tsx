@@ -43,10 +43,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-[slideUp_0.8s_ease-out]">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                Your Safe Space for{" "}
-                <span className="gradient-calm bg-clip-text text-transparent animate-[slideUp_1s_ease-out]">
-                  Sharing
-                </span>
+                Your Safe Space for Sharing
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed animate-[slideUp_1.2s_ease-out]">
                 Whatever you're feeling right now, it's okay. You don't have to go through it alone. 
