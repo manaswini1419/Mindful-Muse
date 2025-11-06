@@ -12,22 +12,22 @@ const Index = () => {
   const features = [
     {
       icon: <MessageCircle className="w-8 h-8" />,
-      title: "AI Chat Companion",
-      description: "Talk to a supportive AI that listens without judgment and provides compassionate responses.",
+      title: "A Listening Companion",
+      description: "Share what's on your mind with someone who truly listens, understands, and cares—without any judgment.",
       image: chatIcon,
       link: "/chat",
     },
     {
       icon: <BarChart3 className="w-8 h-8" />,
-      title: "Mood Tracker",
-      description: "Log your emotions daily and discover patterns in your mental wellness journey.",
+      title: "Track How You Feel",
+      description: "Notice your emotions, honor them, and gently discover what patterns emerge in your inner world.",
       image: moodIcon,
       link: "/mood",
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
-      title: "Wellness Tips",
-      description: "Get personalized advice for stress relief, mindfulness, and emotional balance.",
+      title: "Gentle Guidance",
+      description: "Find caring suggestions for finding peace, staying grounded, and nurturing your emotional well-being.",
       image: wellnessIcon,
       link: "/wellness",
     },
@@ -45,18 +45,18 @@ const Index = () => {
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
                 Your Safe Space for{" "}
                 <span className="gradient-calm bg-clip-text text-transparent animate-[slideUp_1s_ease-out]">
-                  Mental Wellness
+                  Sharing
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed animate-[slideUp_1.2s_ease-out]">
-                You're not alone. Start your journey to better mental health with AI-guided support, 
-                mood tracking, and personalized wellness tips.
+                Whatever you're feeling right now, it's okay. You don't have to go through it alone. 
+                I'm here to listen, understand, and walk with you through every step of your journey.
               </p>
               <div className="flex flex-wrap gap-4 animate-[slideUp_1.4s_ease-out]">
                 <Link to="/chat">
                   <Button variant="calm" size="lg" className="gap-2 hover:scale-105 transition-smooth shadow-card">
                     <Heart className="w-5 h-5" />
-                    Start Talking
+                    Talk to Me
                     <ArrowRight className="w-4 h-4 ml-1" />
                   </Button>
                 </Link>
@@ -90,9 +90,9 @@ const Index = () => {
       <section className="pb-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">How We Support You</h2>
+            <h2 className="text-4xl font-bold mb-4">How I Can Help</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Explore our tools designed to help you feel better, one step at a time.
+              Small tools with a big heart, created to support you wherever you are in your journey.
             </p>
           </div>
           
@@ -132,15 +132,15 @@ const Index = () => {
                 <Phone className="w-6 h-6 text-destructive" />
               </div>
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-destructive">Need Immediate Help?</h3>
+                <h3 className="text-2xl font-semibold mb-3 text-destructive">Feeling Overwhelmed Right Now?</h3>
                 <p className="text-foreground/80 mb-4">
-                  If you're in crisis or need urgent support, please reach out to a professional helpline.
+                  If you're in crisis or need urgent support, please know that trained professionals are ready to help you right away.
                 </p>
                 <div className="space-y-2 glass rounded-2xl p-4">
                   <p className="font-semibold">🇺🇸 National Suicide Prevention Lifeline: <a href="tel:988" className="text-primary hover:underline transition-smooth">988</a></p>
                   <p className="font-semibold">🇺🇸 Crisis Text Line: Text HOME to <a href="sms:741741" className="text-primary hover:underline transition-smooth">741741</a></p>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Remember: Reaching out for help is a sign of strength, not weakness.
+                    You deserve support. Reaching out takes courage, and you're worth it.
                   </p>
                 </div>
               </div>
