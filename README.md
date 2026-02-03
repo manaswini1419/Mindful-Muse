@@ -15,11 +15,12 @@ AI tools were used to:
 All AI-generated content and code were reviewed, modified, and tested to meet academic requirements.
 
 ## Features
-- AI-based conversational companion
-- Calm and minimal user interface
-- Mindfulness-focused interactions
-- Supportive and user-friendly design
-- Responsive layout for different devices
+- Mood check-in system to help users reflect on their current emotional state
+- AI-based conversational companion for supportive and mindful interactions
+- Mood tracking to help users observe emotional patterns over time
+- Personalized, positive, and calming messages based on user input
+- Simple and user-friendly interface focused on emotional awareness
+
 
 ## Technologies Used
 - React
@@ -40,4 +41,8 @@ All AI-generated content and code were reviewed, modified, and tested to meet ac
 
 ## Academic Note
 This project was created for educational purposes with permission to use AI tools, following faculty instructions on AI-assisted development.
+
+## Disclaimer
+Mindful Muse is not a therapy or medical application. It does not provide mental health diagnosis or treatment. The application is intended only for mindfulness, emotional awareness, and self-reflection support.
+
 
